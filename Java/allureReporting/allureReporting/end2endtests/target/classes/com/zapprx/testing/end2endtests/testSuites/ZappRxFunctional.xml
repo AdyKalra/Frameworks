@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite verbose="0" name="ZappRx" preserve-order="true">
+	<test name="TC_00_Physician_Save_Signature_Test" preserve-order="true">
+		<classes>
+			<class
+			name="com.zapprx.testing.end2endtests.regression.PhysicianProfile.SaveSigPhysicianProfileTest" />
+		</classes>
+	</test>
+	<test name="TC_01_Physician_Login_Test" preserve-order="true">
+		<classes>
+			<class
+			name="com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest" />
+		</classes>
+	</test>
+	<test name="TC_02_DoctorRegisterAndPrescribe_Test" preserve-order="true">
+		<classes>
+			<class
+			name="com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest" />
+		</classes>
+	</test>
+	<test name="TC_03_DoctorUpdatePatient_Test" preserve-order="true">
+		<classes>
+			<class
+			name="com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest" />
+		</classes>
+	</test>
+
+	<!-- Comment out PA Test for the time being In the process of parameterizing
+	the tests. We shall get the PA tests back once that task is complete -->
+	<!--<test name="TC_04_PriorAuth_Test" preserve-order="true"> <classes> <class
+	name="com.zapprx.testing.end2endtests.functional.physician.PriorAuthTest"
+	/> </classes> </test> -->
+	<test name="TC_04_Patient_Login_Test" preserve-order="true">
+		<classes>
+			<class
+			name="com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest" />
+		</classes>
+	</test>
+	<test name="TC_05_Pharmacy_Login_Test" preserve-order="true">
+		<classes>
+			<class
+			name="com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest" />
+		</classes>
+	</test>
+	<test name="TC_06_Admin_Login_Test" preserve-order="true">
+		<classes>
+			<class
+			name="com.zapprx.testing.end2endtests.functional.admin.ZQ201Test" />
+		</classes>
+	</test>
+
+</suite> 

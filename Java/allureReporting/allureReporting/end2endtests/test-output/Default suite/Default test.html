@@ -1,0 +1,271 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 04 17:33:07 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>93 seconds (93389 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test.Step01_registerPatientAndCompleteProfile()'><b>Step01_registerPatientAndCompleteProfile</b><br>Test class: com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test<br/>
+<a href="#Output-1251897263" onClick='toggleBox("Output-1251897263", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1251897263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1251897263">
+Assertion Passed: PageTitle for ZappRx Clinician Management is exactly: 'ZappRx Clinician Management'.<br/>
+[2017-04-04] [17:33:22:876] User is on ZappRx Clinician ManagementPage<br/>
+[2017-04-04] [17:33:23:072] User enters lindsay.goldman@zapprx.com on Login Page<br/>
+[2017-04-04] [17:33:23:200] User enters password on Login Page<br/>
+[2017-04-04] [17:33:23:298] User clicks on Sign in button<br/>
+[2017-04-04] [17:33:25:008] Assertion Passed: element headerTxt is displayed.<br/>
+[2017-04-04] [17:33:25:044] Assertion Passed : Header Clinician Management is getting displayed on Home Page<br/>
+[2017-04-04] [17:33:25:117] Assertion Passed: element link_register is displayed.<br/>
+[2017-04-04] [17:33:25:164] Physician clicks on Register to create a new patient<br/>
+[2017-04-04] [17:33:25:494] User enter FirstName in First Name field<br/>
+[2017-04-04] [17:33:25:646] User enter Last1491307405164 in Last Name field<br/>
+[2017-04-04] [17:33:26:876] User enter date 06/08/1976 in Date of Birth field<br/>
+[2017-04-04] [17:33:27:058] User selects Male from Gender dropdown<br/>
+[2017-04-04] [17:33:27:111] User clicks on Save Patient<br/>
+[2017-04-04] [17:33:27:710] User clicks on Complete Profile<br/>
+[2017-04-04] [17:33:28:898] Assertion Passed: User is on New Patient Registration Page<br/>
+[2017-04-04] [17:33:28:951] Assertion Passed: element inp_mrn is displayed.<br/>
+[2017-04-04] [17:33:29:107] Usr enters value in medical record number<br/>
+[2017-04-04] [17:33:29:353] User enter FirstNameLast1491307405164@zapprx.com in login Email field<br/>
+[2017-04-04] [17:33:29:483] User enter value in Password field<br/>
+[2017-04-04] [17:33:29:587] User enter value in Confirm Password field<br/>
+[2017-04-04] [17:33:29:687] User enter value in Height field<br/>
+[2017-04-04] [17:33:29:844] User enter value in Weight field<br/>
+[2017-04-04] [17:33:30:065] User selects inches from Height Units dropdown<br/>
+[2017-04-04] [17:33:30:248] User selects kgs from Weight Units dropdown<br/>
+[2017-04-04] [17:33:30:248] User enters name in Contact Name field<br/>
+[2017-04-04] [17:33:30:387] User enter text in Address1 field<br/>
+[2017-04-04] [17:33:30:514] User enter text in City field<br/>
+[2017-04-04] [17:33:30:666] User selects MA from State dropdown<br/>
+[2017-04-04] [17:33:30:760] User enter value in Zip field<br/>
+[2017-04-04] [17:33:30:973] User enter value inFirstNameLast1491307405164@zapprx.comEmail field<br/>
+[2017-04-04] [17:33:31:084] User enter value in Main Phone field<br/>
+[2017-04-04] [17:33:31:238] User enter value in Contact Name field<br/>
+[2017-04-04] [17:33:31:346] User enter value in Relationship field<br/>
+[2017-04-04] [17:33:31:455] User enter value in Phone field<br/>
+[2017-04-04] [17:33:31:567] User clicks on Add Insurance button<br/>
+[2017-04-04] [17:33:31:782] Assertion Passed: element txt_breadcrumb is displayed.<br/>
+[2017-04-04] [17:33:31:798] Assertion Passed: User is on Insurance Information Page<br/>
+[2017-04-04] [17:33:32:356] User enter value Blue Cross Blue Shield in Insurance Company Name field<br/>
+[2017-04-04] [17:33:32:538] User selects valueFL in State field<br/>
+[2017-04-04] [17:33:32:648] User enter value Phone field<br/>
+[2017-04-04] [17:33:32:731] User enter value in Policy Id field<br/>
+[2017-04-04] [17:33:32:840] User enter value FLBCS in Group Number field<br/>
+[2017-04-04] [17:33:33:001] User selects Self from 'Policy Holder Relationship' dropdown<br/>
+[2017-04-04] [17:33:33:211] User enter value in Policy Holder Employer Name field<br/>
+[2017-04-04] [17:33:33:271] TEST PASSED: element btn_next with text Clinical is displayed.<br/>
+[2017-04-04] [17:33:33:284] User clicks on Step 3: Clinical button<br/>
+[2017-04-04] [17:33:33:444] Assertion Passed: element txt_breadcrumb is displayed.<br/>
+[2017-04-04] [17:33:33:470] Assertion Passed: User is on Clinical Information Page<br/>
+[2017-04-04] [17:33:33:555] User enter value Iodine in Known Drug Allergies<br/>
+[2017-04-04] [17:33:33:699] User selects No from 'Is the patient diabetic?'  dropdown<br/>
+[2017-04-04] [17:33:33:831] User selects Yes from 'Does the patient have high blood pressure?' dropdown<br/>
+[2017-04-04] [17:33:33:959] User selects Yes from 'Does the patient have latex allergy?' dropdown<br/>
+[2017-04-04] [17:33:33:971] User clicks on Complete Registration<br/>
+[2017-04-04] [17:33:36:350] User clicks on Home button<br/>
+[2017-04-04] [17:33:36:931] Assertion Passed: element link_patients is displayed.<br/>
+[2017-04-04] [17:33:37:529] user clicks on Patients<br/>
+[2017-04-04] [17:33:37:733] Assertion Passed: element inp_search is displayed.<br/>
+[2017-04-04] [17:33:37:924] User enter the Last1491307405164 in the search field<br/>
+[2017-04-04] [17:33:38:005] Assertion Passed: element btn_searchIcon is displayed.<br/>
+[2017-04-04] [17:33:39:495] User click on Search Icon<br/>
+[2017-04-04] [17:33:39:620] TEST PASSED: element txt_patientName with text Last1491307405164 is displayed.<br/>
+[2017-04-04] [17:33:39:653] Assertion Passed : Patient Name is getting displayed<br/>
+[2017-04-04] [17:33:40:201] User clicks on LogOut<br/>
+Assertion Passed: PageTitle for ZappRx Clinician Management is exactly: 'ZappRx Clinician Management'.<br/>
+[2017-04-04] [17:33:40:745] User is on ZappRx Clinician ManagementPage<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test@5622fdf</td></tr>
+<tr>
+<td title='com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test.Step02_loginPatientAndModifyInPatient()'><b>Step02_loginPatientAndModifyInPatient</b><br>Test class: com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test<br/>
+<a href="#Output-49547843" onClick='toggleBox("Output-49547843", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-49547843" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-49547843">
+[2017-04-04] [17:33:45:408] User enters FirstNameLast1491307405164@zapprx.com on Login Page<br/>
+[2017-04-04] [17:33:45:518] User enters password on Login Page<br/>
+[2017-04-04] [17:33:45:594] User clicks on Sign in button<br/>
+[2017-04-04] [17:33:47:209] Assertion Passed: element headerTxt is displayed.<br/>
+[2017-04-04] [17:33:47:229] Assertion Passed : Header Patient Management is getting displayed on Home Page<br/>
+[2017-04-04] [17:33:47:333] User clicks on Profile on left navigation bar<br/>
+[2017-04-04] [17:33:47:858] TEST PASSED: element span_tab with text Medical is displayed.<br/>
+[2017-04-04] [17:33:47:932] User clicks on Medical Tab<br/>
+[2017-04-04] [17:33:48:076] User clicks on Edit Profile<br/>
+[2017-04-04] [17:33:48:195] User selects Yes from In-Patient dropdown<br/>
+[2017-04-04] [17:33:48:311] User clicks on Save<br/>
+[2017-04-04] [17:33:48:348] Assertion Passed: element span_drpdwnProfile is displayed.<br/>
+[2017-04-04] [17:33:48:369] User clicks on LogOut at Patient End<br/>
+Assertion Passed: PageTitle for ZappRx Patient Portal is exactly: 'ZappRx Patient Portal'.<br/>
+[2017-04-04] [17:33:48:608] User is on ZappRx Patient PortalPage<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test@5622fdf</td></tr>
+<tr>
+<td title='com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test.Step03_physicianPrescibeMedAndAuthorize()'><b>Step03_physicianPrescibeMedAndAuthorize</b><br>Test class: com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test<br/>
+<a href="#Output-317960117" onClick='toggleBox("Output-317960117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-317960117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-317960117">
+[2017-04-04] [17:33:50:658] User refreshed the page<br/>
+[2017-04-04] [17:33:53:252] User enters lindsay.goldman@zapprx.com on Login Page<br/>
+[2017-04-04] [17:33:53:335] User enters password on Login Page<br/>
+[2017-04-04] [17:33:53:435] User clicks on Sign in button<br/>
+[2017-04-04] [17:33:55:082] Assertion Passed: element headerTxt is displayed.<br/>
+[2017-04-04] [17:33:55:110] Assertion Passed : Header Clinician Management is getting displayed on Home Page<br/>
+[2017-04-04] [17:33:55:664] Assertion Passed: element link_patients is displayed.<br/>
+[2017-04-04] [17:33:56:343] user clicks on Patients<br/>
+[2017-04-04] [17:33:56:426] Assertion Passed: element inp_search is displayed.<br/>
+[2017-04-04] [17:33:56:563] User enter the Last1491307405164 in the search field<br/>
+[2017-04-04] [17:33:56:636] Assertion Passed: element btn_searchIcon is displayed.<br/>
+[2017-04-04] [17:33:58:328] User click on Search Icon<br/>
+[2017-04-04] [17:33:58:459] TEST PASSED: element txt_patientName with text Last1491307405164 is displayed.<br/>
+[2017-04-04] [17:33:58:484] Assertion Passed : Patient Name is getting displayed<br/>
+[2017-04-04] [17:33:58:547] TEST PASSED: element txt_patientName with text Last1491307405164 is displayed.<br/>
+[2017-04-04] [17:33:58:612] User clicks on Patient Name<br/>
+[2017-04-04] [17:33:59:192] Assertion Passed: element div_patientPrescribe is displayed.<br/>
+[2017-04-04] [17:33:59:341] User clicks on Prescribe on Patient Modal<br/>
+[2017-04-04] [17:33:59:475] TEST PASSED: element span_hdrTxt with text Choose an indication is displayed.<br/>
+[2017-04-04] [17:33:59:511] Assertion Passed: Header text Choose an indication is displayed correctly<br/>
+[2017-04-04] [17:33:59:708] User selects Pulmonary Arterial Hypertension from Indications Page<br/>
+[2017-04-04] [17:33:59:737] TEST PASSED: element span_hdrTxt with text Choose a medication is displayed.<br/>
+[2017-04-04] [17:33:59:774] Assertion Passed: Header text Choose a medication is displayed correctly<br/>
+[2017-04-04] [17:34:00:363] TEST PASSED: element span_medicationName with text Orenitram is displayed.<br/>
+[2017-04-04] [17:34:00:659] TEST PASSED: element span_medicationName with text Orenitram is displayed.<br/>
+[2017-04-04] [17:34:02:282] Skip this Step is not displayed<br/>
+[2017-04-04] [17:34:02:327] TEST PASSED: element span_hdrTxt with text Complete Orenitram script for FirstName Last1491307405164 is displayed.<br/>
+[2017-04-04] [17:34:02:375] Assertion Passed: Header text Complete Orenitram script for FirstName Last1491307405164 is displayed correctly<br/>
+[2017-04-04] [17:34:18:417] Assertion Passed: element select_gender is displayed.<br/>
+[2017-04-04] [17:34:18:607] User enter Iodine in Known Drug Allergies field<br/>
+[2017-04-04] [17:34:18:785] User selects Accredo from pharmacy dropdown<br/>
+[2017-04-04] [17:34:18:888] User clicks on Step2: Diagnosis<br/>
+[2017-04-04] [17:34:19:460] Assertion Passed: element update_confirmation is displayed.<br/>
+[2017-04-04] [17:34:19:490] User clicks on Update patient details<br/>
+[2017-04-04] [17:34:20:309] Assertion Passed: element select_primaryDiagnosis is displayed.<br/>
+[2017-04-04] [17:34:20:473] User selects Portal Hypertension (572.3, K76.6) from Primary Diagnosis dropdown<br/>
+[2017-04-04] [17:34:20:584] User selects No from New Diagnosis dropdown<br/>
+[2017-04-04] [17:34:20:619] Assertion Passed: element btn_dosage is displayed.<br/>
+[2017-04-04] [17:34:20:631] User clicks on Step3: Dosage<br/>
+[2017-04-04] [17:34:21:488] User clicks on 0.125 mg under Strengths field<br/>
+[2017-04-04] [17:34:22:162] User selects 2 times per day under Frequency field<br/>
+[2017-04-04] [17:34:22:216] Assertion Passed: element btn_authorize&SavePres is displayed.<br/>
+[2017-04-04] [17:34:22:914] User clicks on Step 4:Authorize<br/>
+[2017-04-04] [17:34:24:073] Assertion Passed: element btn_submit is displayed.<br/>
+[2017-04-04] [17:34:24:111] Assertion Passed: element div_msg is displayed.<br/>
+[2017-04-04] [17:34:24:245] User clicks on Apply Saved Signature<br/>
+[2017-04-04] [17:34:24:899] User enters the physician saved Signature<br/>
+[2017-04-04] [17:34:24:968] User clicks on verify button<br/>
+[2017-04-04] [17:34:25:547] User clicks on Submit button<br/>
+[2017-04-04] [17:34:26:956] Assertion Passed: element div_review is displayed.<br/>
+[2017-04-04] [17:34:26:966] User clicks Review on Confirmation Success Modal<br/>
+[2017-04-04] [17:34:28:927] User clicks on LogOut<br/>
+Assertion Passed: PageTitle for ZappRx Clinician Management is exactly: 'ZappRx Clinician Management'.<br/>
+[2017-04-04] [17:34:29:465] User is on ZappRx Clinician ManagementPage<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test@5622fdf</td></tr>
+<tr>
+<td title='com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test.Step04_loginPatientVerifyInPatientValue()'><b>Step04_loginPatientVerifyInPatientValue</b><br>Test class: com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test<br/>
+<a href="#Output-989033734" onClick='toggleBox("Output-989033734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-989033734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-989033734">
+[2017-04-04] [17:34:30:993] User enters FirstNameLast1491307405164@zapprx.com on Login Page<br/>
+[2017-04-04] [17:34:31:092] User enters password on Login Page<br/>
+[2017-04-04] [17:34:31:169] User clicks on Sign in button<br/>
+[2017-04-04] [17:34:32:801] Assertion Passed: element headerTxt is displayed.<br/>
+[2017-04-04] [17:34:32:821] Assertion Passed : Header Patient Management is getting displayed on Home Page<br/>
+[2017-04-04] [17:34:33:349] User clicks on Profile on left navigation bar<br/>
+[2017-04-04] [17:34:33:388] TEST PASSED: element span_tab with text Medical is displayed.<br/>
+[2017-04-04] [17:34:33:460] User clicks on Medical Tab<br/>
+[2017-04-04] [17:34:36:045] User refreshed the page<br/>
+[2017-04-04] [17:34:36:088] TEST PASSED: element span_tab with text Medical is displayed.<br/>
+[2017-04-04] [17:34:36:163] User clicks on Medical Tab<br/>
+[2017-04-04] [17:34:36:200] Assertion Passed: element slct_inPatDis is displayed.<br/>
+[2017-04-04] [17:34:36:224] Assertion Passed: Value for In-Patient is displayed incorrect<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH.ZQ183Test@5622fdf</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+ physician:
+  indication4:
+   name: Idiopathic Pulmonary Fibrosis
+   medicines:
+    medicine1:
+     name: Esbriet
+     pharmacy:
+      pharmacy1: Accredo
+     maintenanceOrder:
+      maintenanceOrder1: 3 capsules by mouth 3 times per day with food
+      maintenanceOrder2: Other directions
+   diagnosis:
+    diagnosis1: Idiopathic pulmonary fibrosis (516.31, J84.112)

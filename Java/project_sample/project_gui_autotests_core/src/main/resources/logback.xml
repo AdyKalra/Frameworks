@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%highlight(%-5level)] [%X{runnerId}] %d{HH:mm:ss.SSS} [Scenario: %X{scenarioName}] %cyan(%logger{15}) - %msg%n%rEx</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>target/logs/${maven.build.timestamp}.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>[%highlight(%-5level)] [%X{runnerId}] %d{HH:mm:ss.SSS} [Scenario: %X{scenarioName}] %cyan(%logger{15}) - %msg%n%rEx</pattern>
+        </encoder>
+    </appender>
+
+    <root level="ALL">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

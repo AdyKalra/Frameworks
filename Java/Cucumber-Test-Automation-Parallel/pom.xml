@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.opencredo.test</groupId>
+    <artifactId>test-automation-quickstart</artifactId>
+    <packaging>pom</packaging>
+    <version>0.1.0-SNAPSHOT</version>
+
+    <name>com.opencredo.test.automation.quickstart:test-automation-reactor</name>
+    <description>Reactor project for the test automation quickstart</description>
+
+    <properties>
+        <cucumber.version>1.2.4</cucumber.version>
+        <cucumber.jvm.parallel.version>1.0.1</cucumber.jvm.parallel.version>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <assertj.version>3.3.0</assertj.version>
+        <javamail.version>1.4.4</javamail.version>
+
+
+        <selenium.version>2.52.0</selenium.version>
+        <jackson.version>2.7.2</jackson.version>
+        <httpclient.version>4.5.2</httpclient.version>
+
+        <surefire.maven.plugin.version>2.19.1</surefire.maven.plugin.version>
+        <acceptance.test.parallel.count>2</acceptance.test.parallel.count>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <id>default</id>
+            <modules>
+                <module>acceptance-tests-common</module>
+                <module>ui-acceptance-tests</module>
+                <module>api-acceptance-tests</module>
+                <module>performance-tests</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>ui-acceptance-tests</id>
+            <modules>
+                <module>acceptance-tests-common</module>
+                <module>ui-acceptance-tests</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>api-acceptance-tests</id>
+            <modules>
+                <module>acceptance-tests-common</module>
+                <module>api-acceptance-tests</module>
+            </modules>
+        </profile>
+	<profile>
+	    <id>performance-tests</id>
+	    <modules>
+		    <module>performance-tests</module>
+	    </modules>
+        </profile>
+    </profiles>
+
+    <dependencies>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-spring</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>${javamail.version}</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ZappRx]">
+  <test name="TC_01_Physician_Login_Test(failed)">
+    <classes>
+      <class name="com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest">
+        <methods>
+          <include name="testMethodName"/>
+          <include name="Start_Test_Session"/>
+          <include name="close_Test_Session"/>
+          <include name="take_screenshot_on_failure"/>
+          <include name="Step01_Login_As_Physician"/>
+          <include name="Step03_User_LogOut"/>
+          <include name="Step02_User_Is_On_HomePage"/>
+        </methods>
+      </class> <!-- com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest -->
+    </classes>
+  </test> <!-- TC_01_Physician_Login_Test(failed) -->
+  <test name="TC_02_DoctorRegisterAndPrescribe_Test(failed)">
+    <classes>
+      <class name="com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest">
+        <methods>
+          <include name="testMethodName"/>
+          <include name="Step02_prescribePatient"/>
+          <include name="Start_Test_Session"/>
+          <include name="delete_Patient"/>
+          <include name="close_Test_Session"/>
+          <include name="take_screenshot_on_failure"/>
+          <include name="Step01_registerPatientAndCompleteProfile"/>
+        </methods>
+      </class> <!-- com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest -->
+    </classes>
+  </test> <!-- TC_02_DoctorRegisterAndPrescribe_Test(failed) -->
+  <test name="TC_03_DoctorUpdatePatient_Test(failed)">
+    <classes>
+      <class name="com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest">
+        <methods>
+          <include name="Step02_searchPatientToUpdateAddressAndVerify"/>
+          <include name="testMethodName"/>
+          <include name="Step01_registerPatientAndCompleteProfile"/>
+          <include name="Start_Test_Session"/>
+          <include name="delete_Patient"/>
+          <include name="close_Test_Session"/>
+          <include name="take_screenshot_on_failure"/>
+        </methods>
+      </class> <!-- com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest -->
+    </classes>
+  </test> <!-- TC_03_DoctorUpdatePatient_Test(failed) -->
+  <test name="TC_04_Patient_Login_Test(failed)">
+    <classes>
+      <class name="com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest">
+        <methods>
+          <include name="testMethodName"/>
+          <include name="Step01_Login_As_Patient"/>
+          <include name="Step3_User_LogOut"/>
+          <include name="Start_Test_Session"/>
+          <include name="Step02_User_Is_On_HomePage"/>
+          <include name="close_Test_Session"/>
+          <include name="take_screenshot_on_failure"/>
+        </methods>
+      </class> <!-- com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest -->
+    </classes>
+  </test> <!-- TC_04_Patient_Login_Test(failed) -->
+  <test name="TC_05_Pharmacy_Login_Test(failed)">
+    <classes>
+      <class name="com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest">
+        <methods>
+          <include name="testMethodName"/>
+          <include name="Start_Test_Session"/>
+          <include name="Step03_User_LogOut"/>
+          <include name="close_Test_Session"/>
+          <include name="Step01_Login_As_Pharmacy"/>
+          <include name="Step02_User_Is_On_HomePage"/>
+          <include name="take_screenshot_on_failure"/>
+        </methods>
+      </class> <!-- com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest -->
+    </classes>
+  </test> <!-- TC_05_Pharmacy_Login_Test(failed) -->
+  <test name="TC_06_Admin_Login_Test(failed)">
+    <classes>
+      <class name="com.zapprx.testing.end2endtests.functional.admin.ZQ201Test">
+        <methods>
+          <include name="testMethodName"/>
+          <include name="Start_Test_Session"/>
+          <include name="close_Test_Session"/>
+          <include name="Step01_loginAdminAndVerifyHomePage"/>
+          <include name="take_screenshot_on_failure"/>
+        </methods>
+      </class> <!-- com.zapprx.testing.end2endtests.functional.admin.ZQ201Test -->
+    </classes>
+  </test> <!-- TC_06_Admin_Login_Test(failed) -->
+</suite> <!-- Failed suite [ZappRx] -->

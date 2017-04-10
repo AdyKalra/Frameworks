@@ -1,0 +1,166 @@
+physician:
+ indication2:
+   name: Rheumatoid Arthritis
+   medicines:
+    medicine1:
+     name: Otrexup
+     pharmacy:
+      pharmacy1: Cardinal
+    medicine2:
+     name: Xeljanz
+     pharmacy:
+      pharmacy1: Cardinal
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Walgreens Rheumatoid Arthritis Prescription Form
+     Quantity:
+      Quantity1: "60-day supply" 
+    medicine3:
+     name: Actemra SC
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: Cardinal
+      pharmacy3: CVS CareMark
+      pharmacy4: Walgreens
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+    medicine4:  
+     name: Enbrel
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: Cardinal
+      pharmacy3: CVS CareMark
+      pharmacy4: Walgreens
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+     Dose/Strength:
+      Dose/Strength1: 25 mg/mL syringe
+     Quantity:
+      Quantity1: "1-month supply"
+     Directions:
+      Directions1: Other
+    medicine5:
+     name: Actemra IV
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: Cardinal
+      pharmacy3: CVS CareMark
+      pharmacy4: Walgreens
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+     Strengths:
+       Strengths1: One 4 mL vial containing 80 mg tocilizumab 
+     Directions:
+      Directions1: Other
+     Quantity:
+      Quantity1: "1-month supply" 
+    medicine6:
+     name: Remicade
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: ZappRx Pharmacy
+      pharmacy3: CVS CareMark
+      pharmacy4: Walgreens
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+     Quantity:
+      Quantity1: "1-month supply"
+     Directions (Initial Dose):
+      Directions (Initial Dose)1: IV in 250ml of 0.9% NaCl at weeks 0, 2, and 6
+     Directions (Maintenance Dose):
+      Directions (Maintenance Dose)1: IV in 250ml of 0.9% NaCl every 8 weeks
+    medicine7:
+     name: Rasuvo
+     pharmacy:
+      pharmacy1: Cardinal
+    medicine8:
+     name: Cimzia
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens 
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+    medicine9:
+     name: Humira
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: Briova
+      pharmacy3: CVS CareMark
+      pharmacy4: Walgreens 
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+    medicine10:
+     name: Ilaris
+     pharmacy:
+      pharmacy1: CVS CareMark
+     forms:
+      form1: CVS Rheumatology Form
+    medicine11:
+     name: Kineret
+     pharmacy:
+      pharmacy1: CVS CareMark
+      pharmacy2: Walgreens
+     forms:
+      form1: CVS Rheumatology Form
+      form2: Walgreens Rheumatoid Arthritis Prescription Form
+    medicine12:
+     name: Orencia SC
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens 
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+    medicine13:
+     name: Simponi
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens 
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+    medicine14:
+     name: Orencia IV
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens 
+     forms:
+      form1: Accredo Rheumatoid Arthritis Self-Injectable Form
+      form2: CVS Rheumatology Form
+      form3: Walgreens Rheumatoid Arthritis Prescription Form
+    medicine15:
+     name: Rituxan
+     pharmacy:
+      pharmacy1: CVS CareMark
+      pharmacy2: Walgreens 
+     forms:
+      form1: CVS Rheumatology Form
+      form2: Walgreens Rheumatoid Arthritis Prescription Form
+    medicine16:
+     name: Simponi Aria
+     pharmacy:
+      pharmacy1: CVS CareMark
+     forms:
+      form1: CVS Rheumatology Form  
+   diagnosis:
+    diagnosis1: Rheumatoid arthritis (714.0, M06.9)
+      

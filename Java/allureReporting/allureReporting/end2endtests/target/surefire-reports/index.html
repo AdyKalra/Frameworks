@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ZappRx">
+              <span class="suite-name border-skipped">ZappRx</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ZappRx">
+                    <span>F:\github\Java\allureReporting\allureReporting\end2endtests\test\com\zapprx\testing\end2endtests\testSuites\ZappRxFunctional.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ZappRx">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ZappRx">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ZappRx">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ZappRx">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ZappRx">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ZappRx">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,  14 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ZappRx" class="hide-methods skipped suite-ZappRx"> (hide)</a> <!-- hide-methods skipped suite-ZappRx -->
+                      <a href="#" panel-name="suite-ZappRx" class="show-methods skipped suite-ZappRx"> (show)</a> <!-- show-methods skipped suite-ZappRx -->
+                    </span>
+                    <div class="method-list-content skipped suite-ZappRx">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest" hash-for-method="Step01_Login_As_Patient">Step01_Login_As_Patient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest" hash-for-method="Step01_Login_As_Pharmacy">Step01_Login_As_Pharmacy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest" hash-for-method="Step01_Login_As_Physician">Step01_Login_As_Physician</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.admin.ZQ201Test" hash-for-method="Step01_loginAdminAndVerifyHomePage">Step01_loginAdminAndVerifyHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest" hash-for-method="Step01_registerPatientAndCompleteProfile">Step01_registerPatientAndCompleteProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest" hash-for-method="Step01_registerPatientAndCompleteProfile">Step01_registerPatientAndCompleteProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest" hash-for-method="Step02_User_Is_On_HomePage">Step02_User_Is_On_HomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest" hash-for-method="Step02_User_Is_On_HomePage">Step02_User_Is_On_HomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest" hash-for-method="Step02_User_Is_On_HomePage">Step02_User_Is_On_HomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest" hash-for-method="Step02_prescribePatient">Step02_prescribePatient</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest" hash-for-method="Step02_searchPatientToUpdateAddressAndVerify">Step02_searchPatientToUpdateAddressAndVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest" hash-for-method="Step03_User_LogOut">Step03_User_LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest" hash-for-method="Step03_User_LogOut">Step03_User_LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ZappRx" title="com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest" hash-for-method="Step3_User_LogOut">Step3_User_LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ZappRx -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ZappRx" class="panel ZappRx">
+          <div class="suite-ZappRx-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step01_registerPatientAndCompleteProfile">
+                  </a> <!-- Step01_registerPatientAndCompleteProfile -->
+                  <span class="method-name">Step01_registerPatientAndCompleteProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step02_prescribePatient">
+                  </a> <!-- Step02_prescribePatient -->
+                  <span class="method-name">Step02_prescribePatient</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZappRx-class-skipped -->
+          <div class="suite-ZappRx-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step01_registerPatientAndCompleteProfile">
+                  </a> <!-- Step01_registerPatientAndCompleteProfile -->
+                  <span class="method-name">Step01_registerPatientAndCompleteProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step02_searchPatientToUpdateAddressAndVerify">
+                  </a> <!-- Step02_searchPatientToUpdateAddressAndVerify -->
+                  <span class="method-name">Step02_searchPatientToUpdateAddressAndVerify</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZappRx-class-skipped -->
+          <div class="suite-ZappRx-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step01_Login_As_Pharmacy">
+                  </a> <!-- Step01_Login_As_Pharmacy -->
+                  <span class="method-name">Step01_Login_As_Pharmacy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step02_User_Is_On_HomePage">
+                  </a> <!-- Step02_User_Is_On_HomePage -->
+                  <span class="method-name">Step02_User_Is_On_HomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step03_User_LogOut">
+                  </a> <!-- Step03_User_LogOut -->
+                  <span class="method-name">Step03_User_LogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZappRx-class-skipped -->
+          <div class="suite-ZappRx-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zapprx.testing.end2endtests.functional.admin.ZQ201Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step01_loginAdminAndVerifyHomePage">
+                  </a> <!-- Step01_loginAdminAndVerifyHomePage -->
+                  <span class="method-name">Step01_loginAdminAndVerifyHomePage</span>
+                  <div class="stack-trace">java.lang.ExceptionInInitializerError
+	at org.openqa.selenium.firefox.FirefoxProfile.layoutOnDisk(FirefoxProfile.java:416)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:85)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:124)
+	at com.zapprx.testing.end2endtests.automation.WebDriverFactory.getFirefoxDriver(WebDriverFactory.java:124)
+	at com.zapprx.testing.end2endtests.automation.WebDriverFactory.getDriver(WebDriverFactory.java:38)
+	at com.zapprx.testing.end2endtests.automation.TestSessionInitiator._configureBrowser(TestSessionInitiator.java:150)
+	at com.zapprx.testing.end2endtests.automation.TestSessionInitiator.testInitiator(TestSessionInitiator.java:143)
+	at com.zapprx.testing.end2endtests.automation.TestSessionInitiator.&lt;init&gt;(TestSessionInitiator.java:138)
+	at com.zapprx.testing.end2endtests.regression.PhysicianProfile.SaveSigPhysicianProfileTest.savePhysicianSignature(SaveSigPhysicianProfileTest.java:21)
+Caused by: org.openqa.selenium.WebDriverException: Unable to find tmp dir: F:\tmp
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;LAB00W7FCA-15&apos;, ip: &apos;172.20.3.175&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.io.TemporaryFilesystem.&lt;init&gt;(TemporaryFilesystem.java:65)
+	at org.openqa.selenium.io.TemporaryFilesystem.&lt;clinit&gt;(TemporaryFilesystem.java:42)
+	... 42 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZappRx-class-skipped -->
+          <div class="suite-ZappRx-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step01_Login_As_Physician">
+                  </a> <!-- Step01_Login_As_Physician -->
+                  <span class="method-name">Step01_Login_As_Physician</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step02_User_Is_On_HomePage">
+                  </a> <!-- Step02_User_Is_On_HomePage -->
+                  <span class="method-name">Step02_User_Is_On_HomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step03_User_LogOut">
+                  </a> <!-- Step03_User_LogOut -->
+                  <span class="method-name">Step03_User_LogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZappRx-class-skipped -->
+          <div class="suite-ZappRx-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step01_Login_As_Patient">
+                  </a> <!-- Step01_Login_As_Patient -->
+                  <span class="method-name">Step01_Login_As_Patient</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step02_User_Is_On_HomePage">
+                  </a> <!-- Step02_User_Is_On_HomePage -->
+                  <span class="method-name">Step02_User_Is_On_HomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Step3_User_LogOut">
+                  </a> <!-- Step3_User_LogOut -->
+                  <span class="method-name">Step3_User_LogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ZappRx-class-skipped -->
+        </div> <!-- panel ZappRx -->
+        <div panel-name="test-xml-ZappRx" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\github\Java\allureReporting\allureReporting\end2endtests\test\com\zapprx\testing\end2endtests\testSuites\ZappRxFunctional.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;ZappRx&quot;&gt;
+  &lt;test name=&quot;TC_00_Physician_Save_Signature_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zapprx.testing.end2endtests.regression.PhysicianProfile.SaveSigPhysicianProfileTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_00_Physician_Save_Signature_Test --&gt;
+  &lt;test name=&quot;TC_01_Physician_Login_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_01_Physician_Login_Test --&gt;
+  &lt;test name=&quot;TC_02_DoctorRegisterAndPrescribe_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_02_DoctorRegisterAndPrescribe_Test --&gt;
+  &lt;test name=&quot;TC_03_DoctorUpdatePatient_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_03_DoctorUpdatePatient_Test --&gt;
+  &lt;test name=&quot;TC_04_Patient_Login_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_04_Patient_Login_Test --&gt;
+  &lt;test name=&quot;TC_05_Pharmacy_Login_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_05_Pharmacy_Login_Test --&gt;
+  &lt;test name=&quot;TC_06_Admin_Login_Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.zapprx.testing.end2endtests.functional.admin.ZQ201Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_06_Admin_Login_Test --&gt;
+&lt;/suite&gt; &lt;!-- ZappRx --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ZappRx" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ZappRx</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC_00_Physician_Save_Signature_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_01_Physician_Login_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_02_DoctorRegisterAndPrescribe_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_03_DoctorUpdatePatient_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_04_Patient_Login_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_05_Pharmacy_Login_Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_06_Admin_Login_Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ZappRx" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ZappRx</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ZappRx" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ZappRx</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ZappRx');
+function tableData_ZappRx() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Step01_Login_As_Physician')
+data.setCell(0, 2, 'com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Step02_User_Is_On_HomePage')
+data.setCell(1, 2, 'com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Step03_User_LogOut')
+data.setCell(2, 2, 'com.zapprx.testing.end2endtests.functional.physician.PhysicianLoginTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Step02_prescribePatient')
+data.setCell(3, 2, 'com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Step01_registerPatientAndCompleteProfile')
+data.setCell(4, 2, 'com.zapprx.testing.end2endtests.functional.physician.DoctorRegisterAndPrescribeTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Step01_registerPatientAndCompleteProfile')
+data.setCell(5, 2, 'com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Step02_searchPatientToUpdateAddressAndVerify')
+data.setCell(6, 2, 'com.zapprx.testing.end2endtests.functional.physician.DoctorUpdatePatientTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Step01_Login_As_Patient')
+data.setCell(7, 2, 'com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Step02_User_Is_On_HomePage')
+data.setCell(8, 2, 'com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Step3_User_LogOut')
+data.setCell(9, 2, 'com.zapprx.testing.end2endtests.functional.patient.PatientLoginTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Step01_Login_As_Pharmacy')
+data.setCell(10, 2, 'com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Step03_User_LogOut')
+data.setCell(11, 2, 'com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Step02_User_Is_On_HomePage')
+data.setCell(12, 2, 'com.zapprx.testing.end2endtests.functional.pharmacy.PharmacyLoginTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Step01_loginAdminAndVerifyHomePage')
+data.setCell(13, 2, 'com.zapprx.testing.end2endtests.functional.admin.ZQ201Test')
+data.setCell(13, 3, 0);
+window.suiteTableData['ZappRx']= { tableData: data, tableDiv: 'times-div-ZappRx'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-ZappRx">
+              </div> <!-- times-div-ZappRx -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ZappRx" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ZappRx</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ZappRx" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ZappRx" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.zapprx.testing.end2endtests.regression.PhysicianProfile.SaveSigPhysicianProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">savePhysicianSignature</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

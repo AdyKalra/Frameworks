@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite verbose="0" name="ZappRx" preserve-order="true" parallel="tests"
+	thread-count="2">
+	<test name="RegressionTest">
+		<groups>
+			<run>
+				<exclude name="TestExclude" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.zapprx.testing.end2endtests.regression">
+				<exclude
+					name="com.zapprx.testing.end2endtests.regression.PriorAuthorization" />
+			</package>
+			<package name="com.zapprx.testing.end2endtests.regression.Admin" />
+			<package name="com.zapprx.testing.end2endtests.regression.DashboardTabs" />
+			<package name="com.zapprx.testing.end2endtests.regression.Misc" />
+			<package name="com.zapprx.testing.end2endtests.regression.PARx" />
+			<package name="com.zapprx.testing.end2endtests.regression.PatientConsent" />
+			<package name="com.zapprx.testing.end2endtests.regression.PatientPortal" />
+			<package name="com.zapprx.testing.end2endtests.regression.PatientProfile" />
+			<package
+				name="com.zapprx.testing.end2endtests.regression.PhysicianProfile" />
+			<package
+				name="com.zapprx.testing.end2endtests.regression.PrescriptionFlow.IPF" />
+			<package
+				name="com.zapprx.testing.end2endtests.regression.PrescriptionFlow.MS" />
+			<package
+				name="com.zapprx.testing.end2endtests.regression.PrescriptionFlow.PAH" />
+			<package
+				name="com.zapprx.testing.end2endtests.regression.PrescriptionFlow.RA" />
+			<package
+				name="com.zapprx.testing.end2endtests.regression.PrescriptionFlow.MultipleIndication" />
+			<package name="com.zapprx.testing.end2endtests.regression.Registration" />
+			<package name="com.zapprx.testing.end2endtests.regression.RxForms" />
+			<package name="com.zapprx.testing.end2endtests.regression.Search" />
+		</packages>
+	</test>
+
+</suite>

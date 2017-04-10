@@ -1,0 +1,17 @@
+Medicine,doses1,doses2,quantity1,quantity2,quantity3,strength1,strength2,strength3,strength4,strength5,dosage1,dosage2,dosage3,dosage4,Frequency1,Frequency2,dose1,dose2,diluent1,diluent2,diluent3,pump1,pump2,doseStrength,ampuleTablet1,ampuleTablet2
+Adcirca, , ,30-day supply,90-day supply,Other, , , , , , , , , , , , , , , , , , ,20 mg tablet, , 
+Adempas,0.5 mg by mouth 3 times per day,1 mg by mouth 3 times per day,30-day supply,Other, ,0.5 mg,1 mg,1.5 mg,2 mg,2.5 mg, , , , , , , , , , , , , , , , 
+Letairis, , , , , , , , , , ,5 mg tablet,10 mg tablet, , , , , , , , , , , , , , 
+Orenitram, , , , , ,0.125 mg,0.25 mg,1 mg,2.5 mg, , , , , ,2 times per day,3 times per day, , , , , , , , , , 
+Revatio, , ,30-day supply,90-day supply,Other, , , , , , , , , , , , , , , , , , ,20 mg tablet, , 
+sildenafil, , ,30-day supply,90-day supply,Other, , , , , , , , , , , , , , , , , , ,20 mg tablet, , 
+Tyvaso, , , , , , , , , , ,Treprostinil inhalation system starter kit (6 mcg/breath),Treprostinil inhalation system refill kit (6 mcg/breath), , , , , , , , , , , , , , 
+Flolan, , , , , , , , , , , , , , , , ,0.5 mg/mL vial,1.5 mg/mL vial,0.9% Sodium Chloride Injection,Sterile Water for Injection, ,2 CADD-Legacy pumps, , , , 
+Veletri, , , , , , , , , , , , , , , , ,0.5 mg/10 mL vial,1.5 mg/10 mL vial,0.9% Sodium Chloride Injection,Sterile Water for Injection, ,2 CADD-Legacy pumps,2 CADD-MS 3 pumps, , , 
+epoprostenol, , , , , , , , , , , , , , , , ,0.5 mg/mL vial,1.5 mg/mL vial,Epoprostenol Sterile Diluent for Injection,0.9% Sodium Chloride Injection,Sterile Water for Injection,2 CADD-Legacy pumps,2 Ambulatory infusion pumps, , , 
+Remodulin IV, , , , , , , , , , ,1 mg/mL vial,2.5 mg/mL vial,5 mg/mL vial,10 mg/mL vial, , , , , , , , , , , , 
+Remodulin SC, , , , , , , , , , ,1 mg/mL vial,2.5 mg/mL vial,5 mg/mL vial,10 mg/mL vial, , , , , , , , , , , , 
+Opsumit, , , , , , , , , , , , , , , , , , , , , , , ,10 mg tablet, , 
+Tracleer, , , , , , , , , , , , , , , , , , , , , , , , ,62.5 mg tablet,125 mg tablet
+Ventavis, , , , , , , , , , , , , , , , , , , , , , , , ,10 mcg/mL ampule,20 mcg/mL ampule
+Uptravi, , , , , , , , , , , , , , , , , , , , , , , , ,Shipment 1: One hundred forty (140) 200 mcg selexipag tablets,Shipment 2: Titration pack of 140 200 mcg and 60 800 mcg selexipag tablets

@@ -1,0 +1,14 @@
+physician:
+  baseUrl: http://localhost:8084/physician
+
+patient:
+  baseUrl: http://localhost:8081/#/
+
+pharmacy:
+  baseUrl: http://localhost:8084/pharmacy
+
+djangoadmin:
+  baseUrl: http://localhost:8000/admin
+
+admin:
+  baseUrl: http://localhost:8090/#/

@@ -1,0 +1,200 @@
+ physician:
+  indication3:
+   name: Multiple Sclerosis
+   medicines:
+    medicine1:
+     name: Tysabri
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: CVS Multiple Sclerosis Enrollment Form
+      form2: Walgreens Multiple Sclerosis Prescription Form
+     Quantity:
+      Quantity1: 30-day supply
+     diagnosis: Multiple sclerosis (340, G35)
+     otherDetails: Relapsing/remitting
+    medicine2:
+     name: Avonex
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: CVS Multiple Sclerosis Enrollment Form
+      form3: Walgreens Multiple Sclerosis Prescription Form
+     Quantity:
+      Quantity1: 4-week supply
+     Dose:
+      Dose1: 30 mcg vial
+    medicine3: 
+     name: Ampyra
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: Walgreens Multiple Sclerosis Prescription Form
+     viewAddDetails: Where will this drug be administered?
+     Quantity:
+      Quantity1: Other
+    medicine4:
+     name: Aubagio
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: CVS Multiple Sclerosis Enrollment Form
+      form3: Walgreens Multiple Sclerosis Prescription Form
+     Maintenance Dosage:
+      Maintenance Dosage1: 7 mg tablet
+     Quantity: 
+      Quantity1: Other
+    medicine5:
+     name: Lemtrada
+     pharmacy:
+      pharmacy1: Cardinal
+     Quantity: 
+      Quantity1: Other
+    medicine6: 
+     name: Tecfidera
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: CVS Multiple Sclerosis Enrollment Form
+      form3: Walgreens Multiple Sclerosis Prescription Form
+     Starter Pack Rx:
+      Starter Pack Rx1: "Titration starter pack: Fourteen (14) 120mg capsules, and forty-six (46) 240mg capsules"
+     Maintenance Rx:
+      Maintenance Rx1: 240 mg capsule
+     Quantity:
+      Quantity1: 30-day supply
+    medicine7: 
+     name: Rebif
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: CVS Multiple Sclerosis Enrollment Form
+      form3: Walgreens Multiple Sclerosis Prescription Form
+     Titration Pack:
+       Titration Pack1: Titration Pack containing six Rebif 8.8 mcg prefilled syringes and six Rebif 22 mcg prefilled syringes
+     dirOption: "3 times per week"
+     Dose:
+      Dose1: Twelve (12) Rebif Rebidose 22 mcg auto-injectors
+     Quantity:
+      Quantity1: "4-week supply"
+    medicine8:
+     name: Gilenya
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: CVS Multiple Sclerosis Enrollment Form
+      form3: Walgreens Multiple Sclerosis Prescription Form
+     Initial dose: 
+      Initial dose1: Seven (7) 0.5 mg fingolimod capsules in a blister pack
+    medicine9:
+     name: Betaseron
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: CVS Multiple Sclerosis Enrollment Form
+      form3: Walgreens Multiple Sclerosis Prescription Form
+     Quantity: 
+      Quantity1: Other
+    medicine10:
+     name: Copaxone
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: CVS Multiple Sclerosis Enrollment Form
+      form3: Walgreens Multiple Sclerosis Prescription Form
+     quantity:
+      name: Quantity
+      quantity1: "30-day supply"
+    medicine11:
+     name: Extavia 
+     pharmacy:
+      pharmacy1: Accredo
+      pharmacy2: CVS CareMark
+      pharmacy3: Walgreens
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+      form2: CVS Multiple Sclerosis Enrollment Form
+      form3: Walgreens Multiple Sclerosis Prescription Form
+     dosagetitration: Dosage Titration
+     Directions:
+      Directions1: Other
+     quantity:
+      name: Quantity 
+      quantity1: "30-day supply"
+    medicine12:
+     name: Glatopa
+     pharmacy:
+      pharmacy1: CVS CareMark
+     forms:
+      form1: CVS Multiple Sclerosis Enrollment Form
+    medicine13:
+     name: Lioresal IT
+     pharmacy:
+      pharmacy1: Walgreens
+     forms:
+      form1: Walgreens Multiple Sclerosis Prescription Form
+    medicine14:
+     name: Plegridy
+     pharmacy:
+      pharmacy1: CVS CareMark
+      pharmacy2: Walgreens
+     forms:
+      form1: CVS Multiple Sclerosis Enrollment Form
+      form2: Walgreens Multiple Sclerosis Prescription Form
+     starterPack: 
+      name: Starter Pack
+      starterPack1: Starter Pack containing two single-dose prefilled pens; dose 1 provides 63 mcg of PLEGRIDY, and dose 2 provides 94 mcg of Plegridy
+     quantity:
+      name: Quantity
+      quantity1: "28-day supply"
+    medicine15:
+     name: glatiramer acetate
+     pharmacy:
+      pharmacy1: Accredo
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+    medicine16: 
+     name: Lemtrada
+    medicine17:
+     name: Novantrone
+     pharmacy:
+      pharmacy1: CVS CareMark
+      pharmacy2: Walgreens
+     forms:
+      form1: CVS Multiple Sclerosis Enrollment Form
+      form2: Walgreens Multiple Sclerosis Prescription Form
+    medicine18:
+     name: mitoxantrone HCl
+     pharmacy:
+      pharmacy1: Accredo
+     forms:
+      form1: Accredo Multiple Sclerosis Prescription Form
+   diagnosis:
+    diagnosis1: Multiple sclerosis (340, G35)
+    newDiagnosis: "Yes"
+   otherDetails: Relapsing/remitting
