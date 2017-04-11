@@ -19,7 +19,7 @@ reusable frameworks sorted by programming languages
 | serenity-rest-taxi-stands | Serenity BDD, Cucumber and RestAssured to test microservices | https://github.com/serenity-bdd/serenity-rest-taxi-stands | Maven Serenity Cucumber RestAPI  | None |
 | allureReporting | Web project with Allure reporting | https://github.com/priyankasingh7/allureReporting | Maven TestNg Allure SeleniumGrid POM TestDataAsYml| None |
 | project_sample | Parallel Test project skeleton for GUI TA with Allure | https://github.com/Orkyboy/project_sample | Selenium Cucumber Allure SpringDriverManager | Config and core as multi-module binaries |
-| Cucumber-Test-Automation-Parallel | quickstart project for test automation, covering performance, ui acceptance and api acceptance testing | https://github.com/abhisg1986/Cucumber-Test-Automation-Parallel | Selenium Maven Cucumber Spring Jackson Jmeter | Parallel |
+| Cucumber-Test-Automation-Parallel | quickstart project for test automation, covering performance, ui acceptance and api acceptance testing | https://github.com/abhisg1986/Cucumber-Test-Automation-Parallel | Selenium Maven Cucumber Spring Jackson Jmeter | Parallel but no config for browser type etc|
 
 
 
