@@ -14,4 +14,6 @@ reusable frameworks sorted by programming languages
 
 ## Java
 
-- 
+| Framework Name | Description  | Url  | Tools | Comments |
+|:--------------:|:-------------|:-----|:------|:---------|
+| serenity-rest-taxi-stands | Serenity BDD, Cucumber and RestAssured to test microservices | https://github.com/serenity-bdd/serenity-rest-taxi-stands | Tools | Comments |
