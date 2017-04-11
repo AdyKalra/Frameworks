@@ -8,7 +8,7 @@ reusable frameworks sorted by programming languages
 - [C#](#c#)
 - [Python](#python)
 - [Ruby](#ruby)
-- [JavaScript](#js-typescript)
+- [JavaScript / TypeScript](#js-typescript)
 - [PHP](#php)
 
 
