@@ -21,7 +21,7 @@ reusable frameworks sorted by programming languages
 | project_sample | Parallel Test project skeleton for GUI TA with Allure | https://github.com/Orkyboy/project_sample | Selenium Cucumber Allure SpringDriverManager | Config and core as multi-module binaries |![alt text](http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/256/Flag1-orange-icon.png "Maybe")|
 | Cucumber-Test-Automation-Parallel | quickstart project for test automation, covering performance, ui acceptance and api acceptance testing | https://github.com/abhisg1986/Cucumber-Test-Automation-Parallel | Selenium Maven Cucumber Spring Jackson Jmeter | Parallel but no config for browser type etc|![alt text](http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/256/Flag1-orange-icon.png "Maybe")|
 | BDD Cucumber Appium Rest-Assured Test Automation Framework | template test automation framework, which provides structured and standard way of creating automated test scripts for GUI, Mobile and API level tests across projects | https://github.com/gauravkarvir/cucumber_testng_java | Selenium TestNG Maven Cucumber Saucelabs Jenkins RestAssured | None|![alt text](http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/256/Flag1-green-icon.png "Maybe")|
-
+| Frameworkium |  | https://github.com/Frameworkium/frameworkium  | | None|![alt text](http://icons.iconarchive.com/icons/custom-icon-design/flatastic-9/256/Flag1-green-icon.png "Maybe")|
 
 
 ## JS-Typescript
