@@ -1,0 +1,1 @@
+mvn clean verify -Dbrowser=chrome -Dwebdriver.chrome.driver=F:\github\Frameworks\Java\frameworkium-master\drivers\\chromedriver.exe
