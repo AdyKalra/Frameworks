@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InvoiceGeneratorPage>
+  <field name="BookedByTextBox" how="name" using="BookedBy"/>
+  <field name="UsedByTextBox" how="xpath" using="//text[@name='BookedBy']"/>
+  <field name="GenerateInvoiceButton" how="name" using="GenerateInvoiceButton"/>
+</InvoiceGeneratorPage>

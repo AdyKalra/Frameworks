@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BrowserConfig>
+  <ImplicitWaitinSeconds>30</ImplicitWaitinSeconds>
+  <PageLoadTimeoutinSeconds>300</PageLoadTimeoutinSeconds>
+  
+  <Chrome>
+    <preference key="download.default_directory" value=""/>
+  </Chrome>
+
+  <InternetExplorer>
+    <preference key="download.default_directory" value=""/>
+    <preference key="EnableNativeEvents" value="false"/>
+    <Preference key ="IntroduceInstabilityByIgnoringProtectedModeSettings" value="true"/>
+  </InternetExplorer>
+
+ <Firefox>
+    <preference key="browser.helperApps.neverAsk.saveToDisk" value="application/pdf; application/msword; application/vnd.openxmlformats-officedocument.wordprocessingml.document;"/>
+    <preference key="browser.download.folderList" value="2"/>
+    <preference key="browser.download.dir" value=""/>
+  </Firefox>
+</BrowserConfig>

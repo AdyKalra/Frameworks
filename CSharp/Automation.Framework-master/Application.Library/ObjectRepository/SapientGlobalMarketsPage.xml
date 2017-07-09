@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SapientGlobalMarketsPage>
+  <field name="ContactMenu" how="xpath" using="//a[@ui-sref = 'contact']"/>
+  <field name="LocationDropdown" how="xpath" using="//div[@class = 'dropdown']/select"/>
+  <field name="PhoneNumber" how="xpath" using="//div[@ng-bind-html = 'location.meta.phone']"/>
+  <field name="Email" how="xpath" using="//div[@ng-bind-html = 'location.meta.new_biz_email']"/>
+  <field name="Fax" how="xpath" using="//div[@ng-bind-html = 'location.meta.fax']"/>
+</SapientGlobalMarketsPage>
