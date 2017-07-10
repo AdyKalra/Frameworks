@@ -17,7 +17,7 @@ that provides a browser session hook for your tests, and some other niceties.
 ### Zukini.API
 Zukini.API utilizes RestSharp to provide some simple helper methods used to test API's. It attempts to simplify the task of testing different API verbs (e.g. POST, PUT, GET, etc..). 
 
-##Getting Started
+## Getting Started
 1. If you don't have Visual Studio, download the community edition of Visual Studio here: [https://www.visualstudio.com/en-us/products/free-developer-offers-vs.aspx]
 2. Launch Visual Studio and install the following plugins (Tools->Extentions and Updates->Search):
     * NUnit3 Test Adapter (Version 2 will no longer work) 
@@ -26,7 +26,7 @@ Zukini.API utilizes RestSharp to provide some simple helper methods used to test
 4. Load the Zukini.sln file
 5. Write tests
 
-##Test Structure
+## Test Structure
 Zukini.UI uses a simple test structure that is fairly common amongst automation pros:
 
     Features->StepDefs->PageObjects->Coypu->Selenium (or your choice of driver)
