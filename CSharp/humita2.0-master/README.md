@@ -37,7 +37,7 @@ For Zukini.API, the structure is simply:
 
 You could probably add an Endpoint (instead of PageObject) layer in there if you want but up to you.
 
-###Features
+### Features
 Features are normal SpecFlow features. If you installed the SpecFlow for Visual Studio plugin, when creating a new item in visual studio, should be given the option to create a new SpecFlow feature file. See here for instructions on creating SpecFlow Feature Files: http://www.specflow.org/getting-started/
 
 I like to create a seperate folder for my Feature files called, well, "Features", but you can name yours whatever you want.
