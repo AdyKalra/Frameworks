@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/toddmeinershagen/James.Testing/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/toddmeinershagen/James.Testing</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes><![CDATA[0.7.10 Added an overload to the dynamic Post and Put methods to accept no body parameter.
+    0.7.9 Updated the license url.
+    0.7.8 Fixing post request to set the content type for more strict services.]]></releaseNotes>
+    <copyright>Copyright  2014</copyright>
+    <tags>test .net dotnet testing rest</tags>
+    <dependencies>
+      <dependency id="James.Testing" version="1.0.9.0"></dependency>
+    </dependencies>
+  </metadata>
+</package>
